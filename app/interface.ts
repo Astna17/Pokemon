@@ -1,4 +1,4 @@
-interface Pokemon {
+export interface Pokemon {
     name: string;
     url: string;
     sprites: {
@@ -6,7 +6,7 @@ interface Pokemon {
     };
   }
   
-  interface PokemonDetails {
+export interface PokemonDetails {
     id: number;
     name: string;
     height: number;
