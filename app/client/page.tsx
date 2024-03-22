@@ -54,6 +54,7 @@ const ClientPage = () => {
             <Link href={`/client/${pokemon.name}`}>
               <a>{pokemon.name}</a>
             </Link>
+            <img src={pokemon.sprites.front_default} alt={pokemon.name} />
           </li>
         ))}
       </ul>
